@@ -1,0 +1,22 @@
+.button-and-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+}
+
+.button-and-text button {
+    border: none;
+    border-right: 1px solid #a0a0a0;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-and-text button,
+.button-and-text p {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    text-align: center;
+}
